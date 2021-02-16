@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Carteira de Clientes</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cad_cliente">Cadastro Cliente</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirmar">Confirmar</string>
+    <string name="lbl_nome">Nome</string>
+    <string name="lbl_endereco">Endereço</string>
+    <string name="lbl_email">E-mail</string>
+    <string name="lbl_telefone">Telefone</string>
+</resources>

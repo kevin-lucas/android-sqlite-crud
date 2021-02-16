@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutContentCadCliente"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CadCliente"
+    tools:showIn="@layout/activity_cad_cliente">
+
+    <TextView
+        android:id="@+id/txtNomeId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNomeId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtNomeId"
+        app:layout_constraintStart_toStartOf="@+id/txtNomeId"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeId" />
+
+    <TextView
+        android:id="@+id/txtEnderecoId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_endereco"
+        app:layout_constraintEnd_toEndOf="@+id/edtNomeId"
+        app:layout_constraintStart_toStartOf="@+id/edtNomeId"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomeId" />
+
+    <EditText
+        android:id="@+id/edtEnderecoId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtEnderecoId"
+        app:layout_constraintStart_toStartOf="@+id/txtEnderecoId"
+        app:layout_constraintTop_toBottomOf="@+id/txtEnderecoId" />
+
+    <TextView
+        android:id="@+id/txtEmailId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_email"
+        app:layout_constraintEnd_toEndOf="@+id/edtEnderecoId"
+        app:layout_constraintStart_toStartOf="@+id/edtEnderecoId"
+        app:layout_constraintTop_toBottomOf="@+id/edtEnderecoId" />
+
+    <EditText
+        android:id="@+id/edtEmailId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/txtEmailId"
+        app:layout_constraintStart_toStartOf="@+id/txtEmailId"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailId" />
+
+    <TextView
+        android:id="@+id/txtTelefoneId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_telefone"
+        app:layout_constraintEnd_toEndOf="@+id/edtEmailId"
+        app:layout_constraintStart_toStartOf="@+id/edtEmailId"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmailId" />
+
+    <EditText
+        android:id="@+id/edtTelefoneId"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/txtTelefoneId"
+        app:layout_constraintStart_toStartOf="@+id/txtTelefoneId"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelefoneId" />
+</android.support.constraint.ConstraintLayout>
